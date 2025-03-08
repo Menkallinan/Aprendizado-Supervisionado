@@ -31,20 +31,20 @@ Cada sintoma é codificado como 0 (ausente) ou 1 (presente).
 3. LabelEncoder é usado para converter os sintomas em valores numéricos.
 4. O modelo Naive Bayes é treinado com os dados codificados.
 5. O modelo é testado com diferentes combinações de sintomas.
-
+6. Perceba que é possível, no código, mudar os testes, adicionando mais alguns, removendo ou modificando os que já existem. Teste para ver as diferentes previsões.❗📘
 ## 🚀 Execução
 Para rodar o código, execute o script:
 ```bash
-python script.py
+python3 script.py
 ```
 O modelo irá exibir previsões para diferentes combinações de sintomas.
 
 ## 📌 Exemplo de Previsões
 ```bash
-Previsão para teste 1 (todos os sintomas presentes): ['Diagnóstico_X']
-Previsão para teste 2 (nenhum sintoma presente): ['Diagnóstico_Y']
-Previsão para teste 3 (apenas febre e dor de cabeça): ['Diagnóstico_Z']
-Previsão para teste 4 (combinação aleatória): ['Diagnóstico_W']
+Previsão para teste 1 (todos os sintomas presentes): ['Alta']
+Previsão para teste 2 (nenhum sintoma presente): ['Baixa']
+Previsão para teste 3 (apenas febre e dor de cabeça): ['Baixa']
+Previsão para teste 4 (combinação aleatória): ['Media']
 ```
 
 ## 📌 Melhorias Futuras
